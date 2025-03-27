@@ -37,7 +37,7 @@ header img{
     object-fit: cover;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     float: left;
-    transform: translateX(200px);
+    transform: translateX(50px);
     margin-bottom: 50px;
     display: block;
 }
@@ -141,11 +141,11 @@ form input, form textarea {
     margin-top: 5px;
     border: none;
     border-radius: 5px;
-    box-sizing: border-box; /* Evita que padding y border alteren el ancho */
+    box-sizing: border-box; 
 }
 
 form textarea {
-    resize: none; /* Evita que el usuario expanda el área de texto */
+    resize: none; 
     padding: 30px;
 }
 
